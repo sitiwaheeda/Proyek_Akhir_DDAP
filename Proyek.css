@@ -1,0 +1,148 @@
+html{
+        overflow-x: hidden;
+      }
+
+.body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-image: url('https://i.postimg.cc/wjBPVzWB/Screenshot-758.png');
+    background-size: cover;
+    background-position: bottom;
+    height:100vh;
+    min-height:400px;
+    width: 100%;
+}
+
+.hidden-spacer {
+    height: 80px;
+    background-color: #121212;
+}
+
+.nav, .ul, .a {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.aboutus {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.jihadance {
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 50px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'liga' off;
+
+    color: #FFFFFF;
+
+    padding-bottom: 15px;
+    padding-right: 100px; 
+    padding-left: 100px;
+}
+
+.kelas {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    padding-top: 20px;
+}
+
+.kelas-body {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+     padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+}
+
+/* FOOTER */
+.footer{
+    background: #121212;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.text-uppercase{
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.text-para{
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+padding-top: 10px;
+}
+.text-para:hover{
+    color: #F1EFEB;
+}
+
+.carousel-item {
+    height: 400px;
+    width: 100%;
+    background-size: 400px;
+}
+
+.carousel-caption {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 96px;
+    letter-spacing: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 200px;
+    background-position: center;
+}
